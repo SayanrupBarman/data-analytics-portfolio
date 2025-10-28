@@ -1,6 +1,6 @@
 title: Sayanrup Barman | Data Analytics Portfolio
 logo: assets/images/pic.jpeg
-show_downloads: True
-remote_theme: remote_theme: pages-themes/primer@v0.6.0
+show_downloads: False
+remote_theme: pages-themes/primer@v0.6.0
 plugins:
-- jekyll-remote-theme 
+- jekyll-remote-theme
