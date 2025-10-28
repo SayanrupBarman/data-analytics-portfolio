@@ -3,7 +3,6 @@
 <p align="left">
   <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
   <a href="https://github.com/SayanrupBarman">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
@@ -54,7 +53,7 @@ Here are some of the projects I've worked on. They demonstrate my ability to han
 
 *   **Description:** An end-to-end analysis of an e-commerce dataset to segment customers, identify purchasing patterns, and provide data-driven marketing recommendations.
 *   **Technologies:** Python (Pandas), PostgreSQL, SQL, Power BI
-*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/customer-behavior-analysis.git)**
+*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/customer-behavior-analysis)**
 
 #### Business Problem
 An e-commerce business needed to move beyond generic marketing and understand its customer base to drive growth. The key challenge was to extract actionable insights from raw shopping data to identify high-value segments and purchasing patterns.
@@ -72,7 +71,7 @@ The analysis highlighted that male customers generate over double the revenue of
 
 *   **Description:** An analysis to identify top-performing UK YouTubers for a marketing campaign by enriching a static dataset with live data from the YouTube API.
 *   **Technologies:** Python (YouTube API), SQL Server, Power BI
-*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/youtuber-sponshership-analysis.git)**
+*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/youtuber-sponshership-analysis)**
 
 #### Business Problem
 The marketing department needed to make a data-driven decision on which top UK YouTubers to partner with. The objective was to identify influencers who would provide the highest potential return on investment (ROI).
@@ -112,4 +111,4 @@ Beyond my technical projects, I am actively involved in various leadership and c
 *   **Download My Resume**
 *   **Email:** sayanrupb_ug_22@ei.nits.ac.in
 *   **Contact:** 9706012592
-*   **GitHub:** [GitHub Link](https://github.com/SayanrupBarman)
+*   **GitHub:** SayanrupBarman
