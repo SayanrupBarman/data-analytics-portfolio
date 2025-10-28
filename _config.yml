@@ -1,6 +1,6 @@
 title: Sayanrup Barman
 logo: assets/images/pic.jpeg
 show_downloads: False
-remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal
 plugins:
 - jekyll-remote-theme
