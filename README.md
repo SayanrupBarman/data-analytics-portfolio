@@ -108,7 +108,7 @@ Beyond my technical projects, I am actively involved in various leadership and c
 
 ### Resume & Contact
 
-*   **Download My Resume**
+*   **[Download My Resume](https://drive.google.com/file/d/1ojOCLSvwuZW5dR2vqM5KAj3JzBYGPRTk/view?usp=sharing)**
 *   **Email:** sayanrupb_ug_22@ei.nits.ac.in
 *   **Contact:** 9706012592
-*   **GitHub:** SayanrupBarman
+*   **GitHub:** [SayanrupBarman](https://github.com/SayanrupBarman)
