@@ -1,6 +1,0 @@
-title: Sayanrup Barman
-logo: assets/images/pic.jpeg
-show_downloads: False
-remote_theme: pages-themes/minimal
-plugins:
-- jekyll-remote-theme
