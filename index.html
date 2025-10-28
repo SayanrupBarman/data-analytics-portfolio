@@ -4,126 +4,133 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sayanrup Barman | Data Analytics Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Inter', system-ui, sans-serif;
-      background-color: #f5f6f7;
+      font-family: "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #222;
       margin: 0;
       padding: 0;
-      line-height: 1.7;
-      color: #222;
+      background-color: #f9f9f9;
     }
+
     .container {
-      max-width: 880px;
-      margin: 2.5rem auto;
+      max-width: 900px;
+      margin: 60px auto;
       background: #fff;
+      padding: 40px 50px;
       border-radius: 16px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-      padding: 2.5rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
     }
-    h1, h2, h3 {
-      font-weight: 600;
+
+    h1, h2 {
       color: #111;
     }
-    h1 { text-align: center; margin-bottom: 1.5rem; }
+
     hr {
-      border: none;
-      border-top: 1px solid #e0e0e0;
-      margin: 2rem 0;
+      border: 0;
+      height: 1px;
+      background: #ddd;
+      margin: 30px 0;
     }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .about-section img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid #ddd;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .skills-table th, .skills-table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+
+    .skills-table th {
+      background: #f2f2f2;
+    }
+
     a {
-      color: #0366d6;
+      color: #007acc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-      margin: 1rem 0;
-    }
-    table th, table td {
-      border: 1px solid #e2e2e2;
-      padding: 0.6rem;
-    }
-    table th {
-      background-color: #fafafa;
-      text-align: left;
-    }
-    .badge img {
-      height: 32px;
-      margin-right: 8px;
-    }
-    .about {
-      display: flex;
-      align-items: flex-start;
-      gap: 2rem;
-      flex-wrap: wrap;
-    }
-    .about img {
-      width: 180px;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 10%;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.15);
-    }
+
     .project img {
-      width: 100%;
-      max-width: 700px;
       display: block;
-      margin: 0.8rem auto;
+      margin: 0 auto;
       border-radius: 8px;
+      width: 90%;
+      max-width: 700px;
     }
-    .contact a {
-      display: block;
-      margin: 0.25rem 0;
-    }
-    @media (max-width: 700px) {
-      .container { padding: 1.2rem; }
-      .about { flex-direction: column; align-items: center; text-align: center; }
-      .about img { margin-bottom: 1rem; }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #666;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Data Analytics Portfolio</h1>
-
-    <p class="badge">
-      <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">
-        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-      </a>
-      <a href="https://github.com/SayanrupBarman">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-      </a>
+    <h1>Sayanrup Barman | Data Analytics Portfolio</h1>
+    <p>
+      <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">Email</a> |
+      <a href="https://github.com/SayanrupBarman">GitHub</a> |
+      <a href="https://drive.google.com/file/d/1ojOCLSvwuZW5dR2vqM5KAj3JzBYGPRTk/view?usp=sharing">Resume</a>
     </p>
-
     <hr>
 
     <h2>About Me</h2>
-    <div class="about">
+    <div class="about-section">
       <img src="assets/images/pic.jpeg" alt="Sayanrup Barman">
-      <p>
-        A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems. 
-        My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to transform raw data into actionable insights. 
-        I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions. 
-        I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
-      </p>
+      <div class="about-text">
+        <p>
+          A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems.
+          My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to
+          transform raw data into actionable insights.
+        </p>
+        <p>
+          I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions.
+          I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
+        </p>
+      </div>
     </div>
 
     <hr>
 
-    <h3>Technical Skills</h3>
-    <table>
+    <h2>Technical Skills</h2>
+    <table class="skills-table">
       <tr><th>Category</th><th>Skills</th></tr>
-      <tr><td><b>Languages</b></td><td>Python, SQL, C, MATLAB</td></tr>
-      <tr><td><b>Data Analysis &amp; ML</b></td><td>Pandas, NumPy, Scikit-learn, TensorFlow, ETL Pipelines, Data Modeling (Star Schema)</td></tr>
-      <tr><td><b>Databases</b></td><td>PostgreSQL, SQL Server</td></tr>
-      <tr><td><b>BI &amp; Visualization</b></td><td>Power BI, Matplotlib, Seaborn</td></tr>
-      <tr><td><b>Developer Tools</b></td><td>Git, GitHub, Jupyter Notebook</td></tr>
-      <tr><td><b>Prompt Engineering</b></td><td>AI-driven problem-solving leveraging tools like Copilot and Claude</td></tr>
+      <tr><td>Languages</td><td>Python, SQL, C, MATLAB</td></tr>
+      <tr><td>Data Analysis & ML</td><td>Pandas, NumPy, Scikit-learn, TensorFlow, ETL Pipelines, Data Modeling (Star Schema)</td></tr>
+      <tr><td>Databases</td><td>PostgreSQL, SQL Server</td></tr>
+      <tr><td>BI & Visualization</td><td>Power BI, Matplotlib, Seaborn</td></tr>
+      <tr><td>Developer Tools</td><td>Git, GitHub, Jupyter Notebook</td></tr>
+      <tr><td>Prompt Engineering</td><td>AI-driven problem-solving leveraging tools like Copilot and Claude</td></tr>
     </table>
 
     <hr>
@@ -132,62 +139,44 @@
 
     <div class="project">
       <h3>1. Optimizing Marketing Strategy through Customer Segmentation</h3>
-      <img src="assets/images/customer_dashboard.png" alt="Customer Analysis Dashboard">
-      <p><b>Description:</b> An end-to-end analysis of an e-commerce dataset to segment customers, identify purchasing patterns, and provide data-driven marketing recommendations.</p>
-      <p><b>Technologies:</b> Python (Pandas), PostgreSQL, SQL, Power BI</p>
-      <p><b>Links:</b> <a href="https://github.com/SayanrupBarman/customer-behavior-analysis">GitHub Repository</a></p>
-      <h4>Business Problem</h4>
-      <p>An e-commerce business needed to move beyond generic marketing and understand its customer base to drive growth. The key challenge was to extract actionable insights from raw shopping data to identify high-value segments and purchasing patterns.</p>
-      <h4>Impact (Result)</h4>
-      <p>The analysis highlighted that male customers generate over double the revenue of female customers, and that spending habits between subscribed and non-subscribed users are nearly identical. This allows the business to refocus marketing on high-revenue demographics and rethink its subscription value proposition.</p>
+      <img src="assets/images/customer_dashboard.png" alt="Customer Dashboard">
+      <p><strong>Description:</strong> End-to-end analysis of e-commerce data to identify customer segments and purchasing patterns.</p>
+      <p><strong>Tech:</strong> Python (Pandas), PostgreSQL, SQL, Power BI</p>
+      <p><strong>Repo:</strong> <a href="https://github.com/SayanrupBarman/customer-behavior-analysis">GitHub Link</a></p>
     </div>
 
     <hr>
 
     <div class="project">
       <h3>2. Maximizing Marketing ROI with Influencer Performance Analysis</h3>
-      <img src="assets/images/powerbi_dashboard.png" alt="YouTuber Analysis Dashboard">
-      <p><b>Description:</b> An analysis to identify top-performing UK YouTubers for a marketing campaign by enriching a static dataset with live data from the YouTube API.</p>
-      <p><b>Technologies:</b> Python (YouTube API), SQL Server, Power BI</p>
-      <p><b>Links:</b> <a href="https://github.com/SayanrupBarman/youtuber-sponshership-analysis">GitHub Repository</a></p>
-      <h4>Business Problem</h4>
-      <p>The marketing department needed to make a data-driven decision on which top UK YouTubers to partner with. The objective was to identify influencers who would provide the highest potential return on investment (ROI).</p>
-      <h4>Impact (Result)</h4>
-      <p>The analysis provided a clear framework for selecting influencers. It demonstrated that for maximum subscriber reach, <code>NoCopyrightSounds</code> is the top choice, while for campaigns targeting the highest view count, <code>DanTDM</code> is the leader. This enables the marketing team to align their choice of YouTuber with strategic goals.</p>
+      <img src="assets/images/powerbi_dashboard.png" alt="YouTuber Dashboard">
+      <p><strong>Description:</strong> Identified top-performing UK YouTubers using enriched live data from the YouTube API.</p>
+      <p><strong>Tech:</strong> Python (YouTube API), SQL Server, Power BI</p>
+      <p><strong>Repo:</strong> <a href="https://github.com/SayanrupBarman/youtuber-sponshership-analysis">GitHub Link</a></p>
     </div>
 
     <hr>
 
     <div class="project">
       <h3>3. Building a Scalable Analytics Warehouse for Uber Trip Data</h3>
-      <p><b>Description:</b> An end-to-end ETL pipeline to process Uber trip data, model it into a star schema, and load it into a data warehouse for analytics.</p>
-      <p><b>Technologies:</b> Python (Pandas), Google BigQuery, SQL</p>
-      <p><b>Links:</b> <a href="https://github.com/SayanrupBarman/uber-data-engineering-pipeline.git">GitHub Repository</a></p>
-      <h4>Business Problem</h4>
-      <p>To enable business intelligence on Uber trip data, a robust pipeline was needed to process raw data, transform it into a structured format, and load it into a central data warehouse.</p>
-      <h4>Impact (Result)</h4>
-      <p>This project successfully built a modern, scalable data engineering pipeline. The resulting star schema in BigQuery allows analysts to easily query key business metrics like average fare amount ($13.25) and average trip distance (3.03 miles), demonstrating a strong understanding of data warehousing principles.</p>
+      <p><strong>Description:</strong> Designed a full ETL pipeline and star schema in BigQuery for Uber trip data analytics.</p>
+      <p><strong>Tech:</strong> Python (Pandas), Google BigQuery, SQL</p>
+      <p><strong>Repo:</strong> <a href="https://github.com/SayanrupBarman/uber-data-engineering-pipeline">GitHub Link</a></p>
     </div>
 
     <hr>
 
-    <h2>Leadership &amp; Community Involvement</h2>
+    <h2>Leadership & Community Involvement</h2>
     <ul>
-      <li><b>Treasurer, INSEES NIT Silchar:</b> Managed budgeting, sponsorship outreach, and stakeholder relations, overseeing funds to support academic and student initiatives.</li>
-      <li><b>Community Manager, BACE NIT Silchar:</b> Led community operations and engagement, ensuring a constructive environment and smooth content flow for members.</li>
-      <li><b>Event Coordination:</b> As a head at Illuminits &amp; Symphonits and an event coordinator for college fests like Tecnoesis, I have experience in coordinating events, managing logistics, and providing creative support.</li>
-      <li><b>Volunteer &amp; Interests:</b> Volunteer for the Eco Club and enjoy art and guitar, reflecting passion for teamwork and continuous learning.</li>
+      <li><strong>Treasurer, INSEES NIT Silchar:</strong> Managed budgets, sponsorships, and stakeholder relations.</li>
+      <li><strong>Community Manager, BACE NIT Silchar:</strong> Led engagement and content operations.</li>
+      <li><strong>Event Head:</strong> Coordinated events for Illuminits, Symphonits, and Tecnoesis.</li>
+      <li><strong>Volunteer & Interests:</strong> Active in Eco Club, artist, guitarist, and lifelong learner.</li>
     </ul>
 
-    <hr>
-
-    <h2>Resume &amp; Contact</h2>
-    <div class="contact">
-      <a href="https://drive.google.com/file/d/1ojOCLSvwuZW5dR2vqM5KAj3JzBYGPRTk/view?usp=sharing"><b>📄 Download My Resume</b></a>
-      <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">📧 sayanrupb_ug_22@ei.nits.ac.in</a>
-      <a href="tel:+919706012592">📞 9706012592</a>
-      <a href="https://github.com/SayanrupBarman">🌐 GitHub: SayanrupBarman</a>
-    </div>
+    <footer>
+      © 2025 Sayanrup Barman — Built with ❤️ and minimal design.
+    </footer>
   </div>
 </body>
 </html>
