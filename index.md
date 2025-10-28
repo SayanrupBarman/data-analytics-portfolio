@@ -1,4 +1,4 @@
-# Sayanrup Barman
+# Data Analytics Portfolio
 
 <p align="left">
   <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">
@@ -10,19 +10,12 @@
 
 ---
 
-<table>
-  <tr>
-    <td width="200" valign="top">
-      <img src="assets/images/pic.jpeg" alt="Sayanrup Barman" style="border-radius: 5%;">
-    </td>
-    <td valign="top">
-      <h3>About Me</h3>
-      <p>
-        A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems. My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to transform raw data into actionable insights. I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions. I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
-      </p>
-    </td>
-  </tr>
-</table>
+## About Me
+
+A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems.  
+My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to transform raw data into actionable insights.  
+I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions.  
+I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
 
 ---
 
