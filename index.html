@@ -56,6 +56,19 @@
       height: 32px;
       margin-right: 8px;
     }
+    .about {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .about img {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10%;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    }
     .project img {
       width: 100%;
       max-width: 700px;
@@ -69,6 +82,8 @@
     }
     @media (max-width: 700px) {
       .container { padding: 1.2rem; }
+      .about { flex-direction: column; align-items: center; text-align: center; }
+      .about img { margin-bottom: 1rem; }
     }
   </style>
 </head>
@@ -88,12 +103,15 @@
     <hr>
 
     <h2>About Me</h2>
-    <p>
-      A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems. 
-      My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to transform raw data into actionable insights. 
-      I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions. 
-      I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
-    </p>
+    <div class="about">
+      <img src="assets/images/pic.jpeg" alt="Sayanrup Barman">
+      <p>
+        A data-driven and curious engineering student from NIT Silchar with a passion for solving real-world business problems. 
+        My core expertise lies in building end-to-end data analysis pipelines using Python, SQL, and modern BI tools to transform raw data into actionable insights. 
+        I also leverage machine learning techniques to enhance predictive capabilities and deliver more robust solutions. 
+        I am eager to apply my skills in a fast-paced, impact-oriented environment and contribute to data-informed decision-making.
+      </p>
+    </div>
 
     <hr>
 
