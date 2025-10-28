@@ -1,4 +1,4 @@
-# Sayanrup Barman | Data Analytics Portfolio
+# Sayanrup Barman
 
 <p align="left">
   <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">
@@ -13,7 +13,7 @@
 <table>
   <tr>
     <td width="200" valign="top">
-      <img src="assets/images/pic.jpeg" alt="Sayanrup Barman" style="border-radius: 50%;">
+      <img src="assets/images/pic.jpeg" alt="Sayanrup Barman" style="border-radius: 5%;">
     </td>
     <td valign="top">
       <h3>About Me</h3>
