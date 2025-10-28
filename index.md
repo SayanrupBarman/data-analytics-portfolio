@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 # Data Analytics Portfolio
 
 <p align="left">
